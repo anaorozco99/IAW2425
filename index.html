@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="./recursos/favicongato.png"/>
+    <title>Mi Presentación</title>
+    <style>
+        /* estilo pagina */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #e0bbf4; 
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        /* imagen perfil */
+        .imagen-perfil {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        /* descripcion */
+        .descripcion {
+            font-size: 1.2em;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        /* github */
+        .github-boton {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1em;
+            transition: background-color 0.3s;
+        }
+
+        .github-boton:hover {
+            background-color: #ac1fac;
+        }
+    </style>
+</head>
+<body>
+
+    <img src="./recursos/gato naranja luces.gif" alt="imagen perfil" class="imagen-perfil">
+    
+    <p class="descripcion">Hola, soy Ana tengo 25 años. Lo que más me gusta de la informática son los servidores, la seguridad, los cpd y todas esas cosas. <br>
+    Tambien me gustan los gatos como se puede observar 🐈‍⬛</p>
+
+    <a href="https://github.com/anaorozco99/IAW2425" class="github-boton" target="_blank">❤ Mi GitHub ❤</a>
+
+</body>
+</html>
