@@ -1,11 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
+
 <body>
-    
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam tempore magnam harum, velit autem deleniti
+        facilis, dolorem vel, adipisci id eos iste maxime iusto deserunt ratione! Illum, excepturi fuga! Itaque!</p>
+    <button id="1">
+        Soy un boton :D
+    </button>
+    <script>
+        $(document).ready(function () {
+            $("#1").click(function () {
+                $("p").hide()
+            })
+        });
+        //puedo poner nombre ej "button" ó "#id" ó "".class" 
+    </script>
 </body>
+
 </html>
